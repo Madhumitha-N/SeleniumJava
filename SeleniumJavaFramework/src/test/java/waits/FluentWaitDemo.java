@@ -21,7 +21,7 @@ public class FluentWaitDemo {
 	{
 		WebDriver driver=new FirefoxDriver();
 		driver.get("https://google.com");
-		driver.findElement(By.name("q")).sendKeys("Abcd");
+		driver.findElement(By.name("q")).sendKeys("Automation");
 		driver.findElement(By.xpath("(//input[@name='btnK'])[2]")).sendKeys(Keys.RETURN);	
 		//driver.findElement(By.name("Action for Boston Community Development: ABCD Homepage")).click();
 		
